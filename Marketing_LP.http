@@ -1,0 +1,6 @@
+@Marketing_LP_HostAddress = http://localhost:5140
+
+GET {{Marketing_LP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
