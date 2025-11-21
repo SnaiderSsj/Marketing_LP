@@ -7,65 +7,90 @@ namespace Marketing_LP.Infrastructure.Repositories
 {
     public class LeadRepository : ILeadRepository
     {
-        private readonly ApplicationDbContext _context;
-
-        public LeadRepository(ApplicationDbContext context)
+        // Lista en memoria temporal (eliminar después)
+        private static List<Lead> _leads = new List<Lead>
         {
-            _context = context;
+            new Lead {
+                Id = Guid.NewGuid(),
+                Nombre = "Juan Perez",
+                Email = "juan@email.com",
+                Telefono = "77712345",
+                ProductoInteres = "Yogurt Natural",
+                Fuente = "web",
+                Estado = "nuevo",
+                Sucursal = "La Paz",
+                FechaCreacion = DateTime.UtcNow,
+                FechaActualizacion = DateTime.UtcNow
+            },
+            new Lead {
+                Id = Guid.NewGuid(),
+                Nombre = "Maria Lopez",
+                Email = "maria@email.com",
+                Telefono = "77767890",
+                ProductoInteres = "Queso Andino",
+                Fuente = "redes_sociales",
+                Estado = "contactado",
+                Sucursal = "La Paz",
+                FechaCreacion = DateTime.UtcNow,
+                FechaActualizacion = DateTime.UtcNow
+            }
+        };
+
+        public LeadRepository() // Constructor temporal sin DbContext
+        {
         }
 
         public async Task<Lead> GetByIdAsync(Guid id)
         {
-            return await _context.Leads.FindAsync(id);
+            return await Task.FromResult(_leads.FirstOrDefault(l => l.Id == id));
         }
 
         public async Task<IEnumerable<Lead>> GetAllAsync()
         {
-            return await _context.Leads.ToListAsync();
+            return await Task.FromResult(_leads.AsEnumerable());
         }
 
         public async Task<Lead> AddAsync(Lead entity)
         {
-            _context.Leads.Add(entity);
-            await _context.SaveChangesAsync();
-            return entity;
+            _leads.Add(entity);
+            return await Task.FromResult(entity);
         }
 
         public async Task UpdateAsync(Lead entity)
         {
-            entity.FechaActualizacion = DateTime.UtcNow;
-            _context.Entry(entity).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            var existing = _leads.FirstOrDefault(l => l.Id == entity.Id);
+            if (existing != null)
+            {
+                _leads.Remove(existing);
+                _leads.Add(entity);
+            }
+            await Task.CompletedTask;
         }
 
         public async Task DeleteAsync(Lead entity)
         {
-            _context.Leads.Remove(entity);
-            await _context.SaveChangesAsync();
+            _leads.Remove(entity);
+            await Task.CompletedTask;
         }
 
         public async Task<IEnumerable<Lead>> GetLeadsBySucursalAsync(string sucursal)
         {
-            return await _context.Leads
-                .Where(l => l.Sucursal == sucursal)
-                .ToListAsync();
+            return await Task.FromResult(_leads.Where(l => l.Sucursal == sucursal));
         }
 
         public async Task<LeadsEstadisticas> GetEstadisticasLeadsAsync()
         {
             var estadisticas = new LeadsEstadisticas();
 
-            var leads = await _context.Leads.ToListAsync();
+            estadisticas.TotalLeads = _leads.Count;
+            estadisticas.LeadsNuevos = _leads.Count(l => l.Estado == "nuevo");
+            estadisticas.LeadsContactados = _leads.Count(l => l.Estado == "contactado");
 
-            estadisticas.TotalLeads = leads.Count;
-            estadisticas.LeadsNuevos = leads.Count(l => l.Estado == "nuevo");
-            estadisticas.LeadsContactados = leads.Count(l => l.Estado == "contactado");
-
-            estadisticas.LeadsPorFuente = leads
+            estadisticas.LeadsPorFuente = _leads
                 .GroupBy(l => l.Fuente)
                 .ToDictionary(g => g.Key, g => g.Count());
 
-            return estadisticas;
+            return await Task.FromResult(estadisticas);
         }
     }
 }

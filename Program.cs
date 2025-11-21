@@ -11,12 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Database Configuration
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(connectionString));
-
-// Dependency Injection
+// Configuración temporal - Sin base de datos por ahora
 builder.Services.AddScoped<ILeadRepository, LeadRepository>();
 builder.Services.AddScoped<ILeadService, LeadService>();
 
@@ -44,7 +39,8 @@ app.UseCors("AllowAllModules");
 app.UseAuthorization();
 app.MapControllers();
 
-// Initialize Database
+// COMENTAMOS TEMPORALMENTE LA INICIALIZACIÓN DE LA BASE DE DATOS
+/*
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -52,5 +48,6 @@ using (var scope = app.Services.CreateScope())
     await context.Database.EnsureCreatedAsync();
     await SeedData.InitializeAsync(context);
 }
+*/
 
 app.Run();
