@@ -541,11 +541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IT\\source\\repos\\Marketing_LP\\Marketing_LP.csproj",
+      "projectUniqueName": "D:\\Marketing_LP\\Marketing_LP.csproj",
       "projectName": "Marketing_LP",
-      "projectPath": "C:\\Users\\IT\\source\\repos\\Marketing_LP\\Marketing_LP.csproj",
+      "projectPath": "D:\\Marketing_LP\\Marketing_LP.csproj",
       "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IT\\source\\repos\\Marketing_LP\\obj\\",
+      "outputPath": "D:\\Marketing_LP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
