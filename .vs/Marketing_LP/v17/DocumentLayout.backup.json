@@ -1,12 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\IT\\source\\repos\\Marketing_LP\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Marketing_LP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\infrastructure\\repositories\\leadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:infrastructure\\repositories\\leadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\core\\services\\leadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:core\\services\\leadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\core\\dtos\\leaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:core\\dtos\\leaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\core\\interfaces\\ileadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:core\\interfaces\\ileadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\core\\interfaces\\ileadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:core\\interfaces\\ileadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\core\\entities\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:core\\entities\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|d:\\marketing_lp\\core\\entities\\lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6A2AF7-02C2-47B9-B7A1-35445AA716D0}|Marketing_LP.csproj|solutionrelative:core\\entities\\lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeadRepository.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Infrastructure\\Repositories\\LeadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\LeadRepository.cs",
+              "ToolTip": "D:\\Marketing_LP\\Infrastructure\\Repositories\\LeadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\LeadRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:44:03.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Infrastructure\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\SeedData.cs",
+              "ToolTip": "D:\\Marketing_LP\\Infrastructure\\Data\\SeedData.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\SeedData.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:43:43.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Marketing_LP\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:43:23.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeadService.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Core\\Services\\LeadService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\LeadService.cs",
+              "ToolTip": "D:\\Marketing_LP\\Core\\Services\\LeadService.cs",
+              "RelativeToolTip": "Core\\Services\\LeadService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:39:15.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeadDto.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Core\\DTOs\\LeadDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\LeadDto.cs",
+              "ToolTip": "D:\\Marketing_LP\\Core\\DTOs\\LeadDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\LeadDto.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAzwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:38:46.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILeadService.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Core\\Interfaces\\ILeadService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ILeadService.cs",
+              "ToolTip": "D:\\Marketing_LP\\Core\\Interfaces\\ILeadService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ILeadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:38:03.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Marketing_LP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:33:35.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILeadRepository.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Core\\Interfaces\\ILeadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ILeadRepository.cs",
+              "ToolTip": "D:\\Marketing_LP\\Core\\Interfaces\\ILeadRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ILeadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:37:41.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Campaign.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Core\\entities\\Campaign.cs",
+              "RelativeDocumentMoniker": "Core\\entities\\Campaign.cs",
+              "ToolTip": "D:\\Marketing_LP\\Core\\entities\\Campaign.cs",
+              "RelativeToolTip": "Core\\entities\\Campaign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:56:14.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lead.cs",
+              "DocumentMoniker": "D:\\Marketing_LP\\Core\\entities\\Lead.cs",
+              "RelativeDocumentMoniker": "Core\\entities\\Lead.cs",
+              "ToolTip": "D:\\Marketing_LP\\Core\\entities\\Lead.cs",
+              "RelativeToolTip": "Core\\entities\\Lead.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:55:30.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
