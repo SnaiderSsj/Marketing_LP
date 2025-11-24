@@ -40,7 +40,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 // COMENTAMOS TEMPORALMENTE LA INICIALIZACIÓN DE LA BASE DE DATOS
-/*
+
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -48,6 +48,6 @@ using (var scope = app.Services.CreateScope())
     await context.Database.EnsureCreatedAsync();
     await SeedData.InitializeAsync(context);
 }
-*/
+
 
 app.Run();

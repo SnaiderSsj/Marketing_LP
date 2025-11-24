@@ -7,90 +7,73 @@ namespace Marketing_LP.Infrastructure.Repositories
 {
     public class LeadRepository : ILeadRepository
     {
-        // Lista en memoria temporal (eliminar después)
-        private static List<Lead> _leads = new List<Lead>
-        {
-            new Lead {
-                Id = Guid.NewGuid(),
-                Nombre = "Juan Perez",
-                Email = "juan@email.com",
-                Telefono = "77712345",
-                ProductoInteres = "Yogurt Natural",
-                Fuente = "web",
-                Estado = "nuevo",
-                Sucursal = "La Paz",
-                FechaCreacion = DateTime.UtcNow,
-                FechaActualizacion = DateTime.UtcNow
-            },
-            new Lead {
-                Id = Guid.NewGuid(),
-                Nombre = "Maria Lopez",
-                Email = "maria@email.com",
-                Telefono = "77767890",
-                ProductoInteres = "Queso Andino",
-                Fuente = "redes_sociales",
-                Estado = "contactado",
-                Sucursal = "La Paz",
-                FechaCreacion = DateTime.UtcNow,
-                FechaActualizacion = DateTime.UtcNow
-            }
-        };
+        private readonly ApplicationDbContext _context;
 
-        public LeadRepository() // Constructor temporal sin DbContext
+        public LeadRepository(ApplicationDbContext context)
         {
+            _context = context;
         }
 
         public async Task<Lead> GetByIdAsync(Guid id)
         {
-            return await Task.FromResult(_leads.FirstOrDefault(l => l.Id == id));
+            return await _context.Leads.FindAsync(id);
         }
 
         public async Task<IEnumerable<Lead>> GetAllAsync()
         {
-            return await Task.FromResult(_leads.AsEnumerable());
+            return await _context.Leads.ToListAsync();
         }
 
         public async Task<Lead> AddAsync(Lead entity)
         {
-            _leads.Add(entity);
-            return await Task.FromResult(entity);
+            _context.Leads.Add(entity);
+            await _context.SaveChangesAsync();
+            return entity;
         }
 
         public async Task UpdateAsync(Lead entity)
         {
-            var existing = _leads.FirstOrDefault(l => l.Id == entity.Id);
-            if (existing != null)
-            {
-                _leads.Remove(existing);
-                _leads.Add(entity);
-            }
-            await Task.CompletedTask;
+            entity.FechaActualizacion = DateTime.UtcNow;
+            _context.Entry(entity).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(Lead entity)
         {
-            _leads.Remove(entity);
-            await Task.CompletedTask;
+            _context.Leads.Remove(entity);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Lead>> GetLeadsBySucursalAsync(string sucursal)
         {
-            return await Task.FromResult(_leads.Where(l => l.Sucursal == sucursal));
+            return await _context.Leads
+                .Where(l => l.Sucursal == sucursal)
+                .OrderByDescending(l => l.FechaCreacion)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Lead>> GetLeadsByEstadoAsync(string estado)
+        {
+            return await _context.Leads
+                .Where(l => l.Estado == estado)
+                .ToListAsync();
         }
 
         public async Task<LeadsEstadisticas> GetEstadisticasLeadsAsync()
         {
             var estadisticas = new LeadsEstadisticas();
 
-            estadisticas.TotalLeads = _leads.Count;
-            estadisticas.LeadsNuevos = _leads.Count(l => l.Estado == "nuevo");
-            estadisticas.LeadsContactados = _leads.Count(l => l.Estado == "contactado");
+            var leads = await _context.Leads.ToListAsync();
 
-            estadisticas.LeadsPorFuente = _leads
+            estadisticas.TotalLeads = leads.Count;
+            estadisticas.LeadsNuevos = leads.Count(l => l.Estado == "nuevo");
+            estadisticas.LeadsContactados = leads.Count(l => l.Estado == "contactado");
+
+            estadisticas.LeadsPorFuente = leads
                 .GroupBy(l => l.Fuente)
                 .ToDictionary(g => g.Key, g => g.Count());
 
-            return await Task.FromResult(estadisticas);
+            return estadisticas;
         }
     }
 }

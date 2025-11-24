@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Infrastructure",
+    "\\Infrastructure\\Data",
+    "\\Infrastructure\\Repositories"
+  ],
+  "SelectedNode": "\\Controllers\\LeadsController.cs",
+  "PreviewInSolutionExplorer": false
+}

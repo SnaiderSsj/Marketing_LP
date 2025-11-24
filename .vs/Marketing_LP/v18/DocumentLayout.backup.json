@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Controllers\\CampaignsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CampaignsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Controllers\\LeadsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\LeadsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Services\\LeadService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\Services\\LeadService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\DTOs\\LeadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\DTOs\\LeadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Interfaces\\ILeadService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\Interfaces\\ILeadService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\entities\\Campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\entities\\Campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Repositories\\LeadRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\LeadRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Interfaces\\ILeadRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\Interfaces\\ILeadRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\entities\\Lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core\\entities\\Lead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CampaignsController.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Controllers\\CampaignsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CampaignsController.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Controllers\\CampaignsController.cs",
+              "RelativeToolTip": "Controllers\\CampaignsController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeadsController.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Controllers\\LeadsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeadsController.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Controllers\\LeadsController.cs",
+              "RelativeToolTip": "Controllers\\LeadsController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeadService.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Services\\LeadService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\LeadService.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Services\\LeadService.cs",
+              "RelativeToolTip": "Core\\Services\\LeadService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\DTOs\\LeadDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\LeadDto.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\DTOs\\LeadDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\LeadDto.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAzwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILeadService.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Interfaces\\ILeadService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ILeadService.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Interfaces\\ILeadService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ILeadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Campaign.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\entities\\Campaign.cs",
+              "RelativeDocumentMoniker": "Core\\entities\\Campaign.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\entities\\Campaign.cs",
+              "RelativeToolTip": "Core\\entities\\Campaign.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Repositories\\LeadRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\LeadRepository.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Repositories\\LeadRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\LeadRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Infrastructure\\Data\\SeedData.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\SeedData.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ILeadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Interfaces\\ILeadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ILeadRepository.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\Interfaces\\ILeadRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ILeadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Lead.cs",
+              "DocumentMoniker": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\entities\\Lead.cs",
+              "RelativeDocumentMoniker": "Core\\entities\\Lead.cs",
+              "ToolTip": "C:\\Users\\Snaider Ssj\\Music\\Ingenieria De Sistemas\\Programacion Web II\\Marketing_LP\\Marketing_LP\\Core\\entities\\Lead.cs",
+              "RelativeToolTip": "Core\\entities\\Lead.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:20.726Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
